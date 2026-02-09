@@ -88,8 +88,8 @@ All transforms operate on every map in the material simultaneously.
 [Load Image: albedo] ──┐
 [Load Image: normal] ──┤
 [Load Image: rough]  ──┼──▶ [PyPBR Create Material] ──▶ [PyPBR Resize 1024×1024] ──┬──▶ [PyPBR Extract Maps] ──▶ [Preview]
-[Load Image: metal]  ──┘                                                            │
-                                                                                    └──▶ [PyPBR Cook-Torrance Render] ──▶ [Preview]
+[Load Image: metal]  ──┘                                                           │
+                                                                                   └──▶ [PyPBR Cook-Torrance Render] ──▶ [Preview]
 ```
 
 ## Notes
