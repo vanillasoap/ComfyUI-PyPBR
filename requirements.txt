@@ -1,0 +1,4 @@
+pypbr>=0.1.0b3
+torch
+numpy
+Pillow
